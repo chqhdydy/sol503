@@ -1,3 +1,4 @@
+#!/bin/bash
 yum install -y httpd mariadb-server mariadb php php-mysql php-gd 
 systemctl start httpd mariadb       
 systemctl enable httpd mariadb
